@@ -2,11 +2,25 @@ import React,{useState}from 'react'
 import Form from './Form'
 
 function List() {
+
     const [todos, settodos] = useState([])
+    
+    const addTodos = todo => {
+        if(!todo.text || /^\s*$/.test(todo.text)){
+            return
+        }
+
+        const newTodos = [todo,...todos]
+        
+
+        settodos(newTodos);
+        console.log(...todos);
+
+    };
+    
     return (
         <div>
-            <h1>Test</h1>
-            <Form/>
+            <Form onSubmit={addTodos}/>
         </div>
     )
 }

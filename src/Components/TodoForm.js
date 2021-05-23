@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 function TodoForm(props) {
-  let count=0;
   const [input, setInput] = useState(props.edit ? props.edit.value : '');
+  const [count, setCount] = useState(0);
 
   const inputRef = useRef(null);
 
@@ -16,11 +16,14 @@ function TodoForm(props) {
 
   const handleSubmit = e => {
     e.preventDefault();
+    const newCount = count + 1
+    setCount(newCount)
 
     props.onSubmit({
-      id: ++count,
+      id:newCount,
       text: input,
     });
+    
     setInput('');
   };
 

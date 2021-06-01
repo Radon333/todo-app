@@ -38,6 +38,7 @@ function TodoForm(props) {
             name='text'
             ref={inputRef}
             className='todo-input edit'
+            autocomplete="off"
           />
           <button onClick={handleSubmit} className='todo-button edit'>
             Update
@@ -52,6 +53,7 @@ function TodoForm(props) {
             name='text'
             className='todo-input'
             ref={inputRef}
+            autocomplete="off"
           />
           <button onClick={handleSubmit} className='todo-button'>
             Add todo

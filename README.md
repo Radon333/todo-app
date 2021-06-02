@@ -1,7 +1,7 @@
 <h1 align="center">Todo App</h1>
 
 <h3>About</h3>
-<p>The Todo App is a task managing Web-Application to help the user stay organized for their daya to day activities</p> 
+<p>The Todo App is a task managing Web-Application to help the user stay organized for their day to day activities</p> 
 <p>The Todo App can be used for variety of purposes be it shopping lists,taking notes or to plan an event.</p>
 <h3>Technologies Used</h3>
 <p> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>

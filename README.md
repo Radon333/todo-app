@@ -9,12 +9,24 @@
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a><a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a></p>
 <h3>Features and Description</h3>
 <p>The Todo App is built to be quick and user friendly.It's features include</p>
+<p>
+<h4>Adding Tasks</h4>
 
-* Adding Tasks
 ![Add](https://user-images.githubusercontent.com/25654606/120463734-d5e73e80-c3b9-11eb-9f71-4c32a14cfe3f.gif)
-* Editing Tasks
+</p>
+<p>
+<h4>Editing Tasks</h4>
+
 ![Edit](https://user-images.githubusercontent.com/25654606/120463766-dc75b600-c3b9-11eb-8c6b-aa1d2f8fe0ca.gif)
-* Marking Tasks as completed
+</p>
+<p>
+<h4>Marking Tasks as completed</h4>
+
 ![Completed](https://user-images.githubusercontent.com/25654606/120463779-e0093d00-c3b9-11eb-97bc-c1d2c3fac7f7.gif)
-* Minimal UI
+</p>
+<p>
+
+<h4>User Friendly UI</h4>
+
 ![UI](https://user-images.githubusercontent.com/25654606/120463809-e7c8e180-c3b9-11eb-9afe-d2ff3ac69ee3.png)
+</p>

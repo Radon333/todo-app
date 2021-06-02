@@ -11,6 +11,10 @@
 <p>The Todo App is built to be quick and user friendly.It's features include</p>
 
 * Adding Tasks
+![Add](https://user-images.githubusercontent.com/25654606/120463734-d5e73e80-c3b9-11eb-9f71-4c32a14cfe3f.gif)
 * Editing Tasks
+![Edit](https://user-images.githubusercontent.com/25654606/120463766-dc75b600-c3b9-11eb-8c6b-aa1d2f8fe0ca.gif)
 * Marking Tasks as completed
+![Completed](https://user-images.githubusercontent.com/25654606/120463779-e0093d00-c3b9-11eb-97bc-c1d2c3fac7f7.gif)
 * Minimal UI
+![UI](https://user-images.githubusercontent.com/25654606/120463809-e7c8e180-c3b9-11eb-9afe-d2ff3ac69ee3.png)

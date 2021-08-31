@@ -2,28 +2,29 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
-  background-color:#090c10/*linear-gradient(
+  background-color: #090c10; /*linear-gradient(
     90deg,
     rgba(48, 16, 255, 1) 0%,
     rgba(100, 115, 255, 1) 100%
   );*/
+  padding: 1rem;
 }
 .todo-app {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 520px;
-  min-height: 600px;
+  max-width: 520px;
+  min-height: 560px;
   background: #161a2b;
   text-align: center;
   margin: 12px auto;
   border-radius: 10px;
-  padding-bottom: 32px;
+  padding: 0 0.2rem 32px;
   border-style: solid;
   border-width: 3px;
   border-color: white;
@@ -49,7 +50,7 @@ h1 {
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
   outline: none;
-  width: 320px;
+  width: 70%;
   background: transparent;
   color: #fff;
 }
@@ -64,13 +65,13 @@ h1 {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
-  background-color:#5d0cff;/*linear-gradient(
+  background-color: #5d0cff; /*linear-gradient(
     90deg,
     rgba(93, 12, 255, 1) 0%,
     rgba(155, 0, 250, 1) 100%
   );*/
-  color:white;
-  text-transform:capitalize;
+  color: white;
+  text-transform: capitalize;
 }
 
 .todo-input.edit {
@@ -110,11 +111,11 @@ h1 {
 }
 
 .todo-row:nth-child(4n + 2) {
-  background: #6e06b8
+  background: #6e06b8;
 }
 
 .todo-row:nth-child(4n + 3) {
-  background: #00BD94;
+  background: #00bd94;
 }
 
 .icons {

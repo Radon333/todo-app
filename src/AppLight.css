@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  height:100vh;
+ background-size: cover;
+ background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+
+ background-repeat: no-repeat;
+  padding: 1rem;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 520px;
+  min-height: 560px;
+  background-color: #b8c6db;
+  background:transparent;
+  text-align: center;
+  margin: 12px auto;
+  border-radius: 10px;
+  padding: 0 0.2rem 32px;
+  border-style: solid;
+  border-width: 5px;
+  border-color:	#4a4c51;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #4a4c51
+  ;
+  font-size: 24px;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(39, 122, 155);
+  outline: none;
+  width: 70%;
+  background: transparent;
+  color: #4a4c51 ;
+}
+
+.todo-input::placeholder {
+  color: #4a4c51
+  ;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(39, 122, 155); /*linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );*/
+  color: white;
+  text-transform: capitalize;
+}
+
+.todo-input.edit {
+  border: 2px solid #8ABAD3FF;
+}
+
+.todo-button.edit {
+  background: #8ABAD3FF;
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background-color: #e06029  ;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+  background: #46525e;
+}
+
+.todo-row:nth-child(4n + 2) {
+  background: #41854b;
+}
+
+.todo-row:nth-child(4n + 3) {
+  background: #943a3a;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
